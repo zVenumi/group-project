@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityHub</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                <div class="logo">
+                <img src="./images/citylogo.jpg">
+                </div>
+                CityHub
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="search for students">
+            </div>
+            <div class="create">
+                <label class ="btn btn-primary" for="create-post">New Post</label>
+                <div class="profile-picture">
+                    <img src="./images/LeoSun.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <div class="container">
+
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./images/LeoSun.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Leo</h4>
+                        <p class ="text-muted">
+                            @Leo
+                        </p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+                    <a class="menu-item active" href="./index.html">
+                    <span><i class="uil uil-house-user"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item active" href="./profile.html">
+                        <span><i class="uil uil-user-circle"></i></span><h3>Profile Page</h3>
+                    </a>
+                    <a class="menu-item" href="./student.html">
+                        <span><i class="uil uil-users-alt"></i></span> <h3>Student List</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"></small></i></span> <h3>Notifications</h3>
+                        
+                            <!--popup unable to make this work due to extremely limited js knowledge-->
+
+                    <div class="notifications-popup">
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Momo2.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Momo</b> accepted your friend request 
+                                <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Lola2.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Lola</b> commented on your post 
+                                <small class="text-muted">1 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Panda1.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Panda</b> and <b>342 others</b> liked your post
+                                <small class="text-muted">10 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Stormy1.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Stormy</b> commented on your post 
+                                <small class="text-muted">5 MINUTES AGO</small>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Simba1.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Simba</b> accepted your friend request 
+                                <small class="text-muted">2 MINUTES AGO</small>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/Tima1.jpg">
+                            </div>
+                            <div class ="notification-body">
+                                <b>Tima</b> accepted your friend request 
+                                <small class="text-muted">JUST NOW</small>
+                            </div>
+                        </div>
+                    </div>    
+            
+                
+                        <!--end of notification popup-->
+                    </a>
+                        <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelopes"></small></i></span> <h3>Messages</h3>
+                     </a>
+
+                    <a class="menu-item" a href="./contact.html">
+                        <span><i class="uil uil-envelope-edit"></i></span><h3>Contact Us</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            
+                <!--end of left-->
+
+                <div class="middle">
+                
+                    <div class="feeds">
+
+
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-picture">
+                                        <img src="./images/LeoSun.jpg">
+                                    </div>
+                                    <label for="create-post" class="btn btn-primary">change profile picture</label>
+                                    <label for="create-post" class="btn btn-primary">upload CV</label>
+                                    <label for="create-post" class="btn btn-primary">download CV</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feed">
+                            <div class="feedname">
+                                <h3>Leo</h3><p>Your Posts:</p>
+                            </div>
+
+                            <div class="photo">
+                                <img src="./images/catchonk.jpg">
+                            </div>
+                            <div class="photo">
+                                <img src="./images/Leo.jpg">
+                            </div>
+                            <div class="photo">
+                                <img src="./images/catloaf.jpg">
+                            </div>
+                            <div class="photo">
+                                <img src="./images/catheh.jpg">
+                            </div>
+                            <div class="photo">
+                                <img src="./images/cat3.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                    </div>
+
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search For Messages" id="message-search">
+                    </div>
+
+                    <div class="category">
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/Tima1.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>Tima</h5>
+                            <p class="text-muted">WEE WOO</p>
+                        </div>
+
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/Simba1.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>Simba</h5>
+                            <p class="text-bold">5 new messages</p>
+                        </div>
+
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/Momo2.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>Momo</h5>
+                            <p class="text-muted">wumbo</p>
+                        </div>
+
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                        <img src="./images/Stormy1.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>Stormy</h5>
+                            <p class="text-bold">wumbology</p>
+                        </div>
+
+                   </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/Lola2.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>lola</h5>
+                            <p class="text-bold">wumboscience</p>
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+
+                <!-- end of right-->
+            </div>
+        </div>
+    </main>
+
+<script src="./index.js"></script>
+</body>
+</html>
