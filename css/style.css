@@ -292,31 +292,31 @@ main .container .left .profile{
 }
 
 .middle .stories .story:nth-child(1){
-    background: url('/images/LeoSnooze.jpg')
+    background: url('../images/LeoSnooze.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2){
-    background: url('/images/Momo1.jpg')
+    background: url('../images/Momo1.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3){
-    background: url('/images/Lola.jpg')
+    background: url('../images/Lola.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4){
-    background: url('/images/Panda2.jpg')
+    background: url('../images/Panda2.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5){
-    background: url('/images/Stormy2.jpg')
+    background: url('../images/Stormy2.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(6){
-    background: url('/images/Simba2.jpg')
+    background: url('../images/Simba2.jpg')
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(7){
-    background: url('/images/Tima2.jpg')
+    background: url('../images/Tima2.jpg')
     no-repeat center center/cover;
 }
 
